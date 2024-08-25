@@ -1,0 +1,615 @@
+ * 
+ {
+  cursor:pointer
+ }  
+ .footer 
+ {
+  height: 10vh;
+  display: flex;
+  align-items: center; 
+  
+ }
+ .frontend 
+ {
+  height: 590vh;
+  overflow: hidden; 
+ 
+ }  
+ .footer
+ {
+  margin-top: 70px;
+ }
+ .header 
+{
+  height: 10vh; 
+  border-bottom: 1px solid rgba(0, 0, 0, 0.155);
+}    
+.cred 
+{
+  position: relative; 
+  top: 30px; 
+  right: 10px
+ 
+} 
+.visible 
+{
+  display: none;
+}  
+.intern:hover .visible 
+{
+  display: flex; 
+  color:green;
+}
+
+.icon 
+{
+  position: absolute;
+  right: 20px
+} 
+
+.contextTwo 
+  {
+    display: none;
+  } 
+  .headerTwo 
+  {
+    height: 5vh;
+  }  
+  .slider 
+  {
+  overflow: inherit;
+  } 
+.imgs 
+{
+  height: 60px;
+  width: 120px;
+
+}  
+.sub 
+{
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.strategic_partner 
+{
+  height: 20vh;
+  width: 80%;  
+  background-color: rgb(245, 242, 242);
+  
+}
+  .slider,.img1  
+  {
+    min-width: 100%; 
+    min-height: 70vh; 
+    
+    
+   
+  } 
+  .img1,.img2,.img3 
+  {
+    background-image: url('images/master-certificate-data-science.jpg'); 
+    object-fit: cover; 
+    background-size: cover;   
+    min-width: 100%; 
+    background-position: center;  
+   
+  } 
+  .img2 
+  {
+background-image: url('images/master-certificate-full-stack.jpg');
+  } 
+  .img3 
+  {
+    background-image: url('images/master-certificate-cyber-security.jpg'); 
+    background-position: 100%;
+  } 
+  .right,.left 
+  {
+    font-size: 50px; 
+  } 
+  .rotate 
+  {
+    height: 100vh; 
+    animation:rota 5s linear infinite;  
+
+   
+  } 
+  .rotate::-webkit-scrollbar 
+  {
+    display: none;
+  } 
+  .login,.newaccount
+  {
+    background-image: url('images/login_mobile.46a6646b.png'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }  
+  
+  .loginDetails,.filling 
+  {
+    height: 400px; 
+    width: 400px;
+
+  } 
+  .textfield 
+  {
+    border: 1px solid black; 
+    width: 90%; 
+    margin-top: 40px;
+  } 
+  .getinfo 
+  {
+    flex-direction: column;
+  } 
+  .login 
+  {
+    flex-direction: column;
+  } 
+  .general 
+  {
+    height: 3vh; 
+    justify-content: center;
+    align-items: center; 
+    height: 30px;
+    width: 40px; 
+    border-bottom: 1px solid blue;
+  } 
+  .mailing 
+  {
+    position: relative; 
+    right: 5px
+  } 
+  .ims 
+  {
+    height: 20px;
+    width: 20px;
+  } 
+  .logins 
+  {
+    background: linear-gradient(45deg,red,white); 
+    color: white; 
+    padding: 2px 4px;
+  } 
+  .login-user 
+  {
+    width: 100%;
+  } 
+  .filling 
+  {
+background-color: rgba(255, 255, 255, 0.208);
+  } 
+  .Name 
+  {
+    width: 300px; 
+    border: none;
+    outline: none;
+    background:none;  
+   
+  } 
+  .Name::placeholder 
+  {
+    color:red;
+    text-transform: uppercase;
+  } 
+  .deatils 
+  {
+    flex-direction: column;
+  } 
+  .deatils>* 
+  {
+    padding: 30px
+  } 
+  .finalmessage 
+  {
+    height: 70px;
+    width: 180px; 
+    
+  } 
+  .dropdown 
+  { 
+    position: relative; 
+    display: inline-block;
+  } 
+  .dropdown-content 
+  {
+    display: none;
+    position: absolute; 
+    min-width: 120px;
+
+  } 
+  .dropdown-content li 
+  {
+    display: block;
+  } 
+  .dropdown:hover .dropdown-content 
+  {
+    display: block;
+  }  
+  .firstimg,.secondimg,.thirdimg
+  {
+    background-image: url('./images/first.webp');   
+   object-fit: cover; 
+   background-size: cover; 
+   min-width: 100%; 
+  
+ 
+
+   
+    
+  }  
+  .secondimg
+  {
+    background-image: url('./images/second.webp');
+  } 
+  .thirdimg 
+  {
+    background-image: url('./images/third.webp');
+  }
+  .imagerows 
+  {
+    height:300px;
+    min-width: 400px; 
+    display: flex; 
+    overflow: hidden;
+  }  
+  
+  .support 
+  {
+    min-width: 80%; 
+    height: 400px; 
+    
+  }   
+  .sets 
+  {
+    flex-direction: column;
+  } 
+   .more 
+   {
+    padding: 5px;
+    background:linear-gradient(45deg,pink,rgb(0, 255, 255))
+   } 
+   .trends 
+   {
+    border-bottom: 3px solid yellow;
+   }
+.recweb 
+{
+  background:linear-gradient(45deg,pink,rgb(0, 255, 255)) 
+  
+} 
+
+.substo 
+{
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.placed 
+{
+  max-width: 80%; 
+  align-items: center; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+
+} 
+.scrollpla 
+{
+  max-width: 100%; 
+  display: flex; 
+ overflow: scroll;
+}  
+
+
+.scrollpla>* 
+{
+  min-width: 300px;
+  min-height: 400px; 
+  border: 1px solid yellow; 
+  margin: 10px;
+} 
+.scrollpla::-webkit-scrollbar 
+{
+  display: none;
+}
+@media (min-width: 720px) 
+{  
+  .counters 
+{
+  height: 20vh;  
+
+
+
+} 
+  .large 
+  {
+    width: 100%;
+  }
+  .contextTwo 
+  {
+    display: flex;
+  }   
+  .cour 
+  {
+    position: absolute;
+    top: 20%;
+  }
+ .cour 
+ {
+  min-height: 400px;
+  min-width: 400px;
+ } 
+ .cour>* 
+ {
+  padding: 10px;
+ }
+  .icon 
+  {
+    display: none;
+  } 
+  .live1 
+  {
+    display: none;
+  }
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none; /* Hide the dropdown content by default */
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px ;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block; /* Display the dropdown content when the dropdown container is hovered */
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: white;
+} 
+.trendingCourses 
+{ 
+  display: flex;
+  flex-direction: column;
+}
+.subs 
+{
+  flex-direction: column;
+} 
+.holder 
+{
+  max-width: 250px; 
+  max-height: 400px;
+} 
+.joke 
+{
+  display: flex;
+} 
+.metaimg 
+{
+  position: relative; 
+  bottom: 50px;
+} 
+.paras 
+{
+  text-align: center; 
+  margin-top: 100px;
+} 
+
+} 
+@media (max-width:720px) {  
+  .counters 
+{
+  height: 40vh;  
+
+
+
+}  
+  .frontend 
+  {
+    height: 1165vh;
+  } 
+  .scrollpla>* 
+{
+  min-width: 95%;
+  min-height: 400px; 
+  border: 1px solid yellow; 
+  margin: 10px;
+}
+  .none
+  {
+    display: none;
+  } 
+  .contextOne>*,.headertwoContext>*
+  {
+    border-bottom: 1px solid red; 
+    width: 100%; 
+    border-style: dashed; 
+    padding: 10px
+  } 
+  .contextOne,.headertwoContext
+  {
+    flex-direction: column; 
+    position: absolute; 
+    top: 20vh;
+    left: 40vw;
+  }  
+  .headertwoContext>*:hover 
+  {
+    background-color: rgba(191, 219, 254);
+  }
+  .headertwoContext 
+  {
+    top:50vh;
+    left:44vw; 
+  } 
+  .live2 
+  {
+    display: none;
+  }
+  .subs 
+  {
+    flex-direction: column; 
+    margin-top: 70px;
+  } 
+  .holder 
+  {
+    max-height: 400px; 
+    max-width: 300px;
+  }
+  .joke 
+  {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+} 
+@keyframes rota { 
+  0% 
+  {
+    transform: rotate(0deg);
+  }  
+  50% 
+  {
+    transform: rotate(180deg);
+  }
+  100% 
+  {
+    transform: rotate(360deg);
+  }
+  
+} 
+.holder 
+{
+  box-shadow: 2px 2px 2px   1px ; 
+  flex-direction: column;
+} 
+.holder>* 
+{
+  margin: 10px;
+} 
+.trend 
+{
+  border-bottom: 3px solid red; 
+  width: fit-content;
+}  
+
+.comman 
+{
+  height: 300px; 
+  width: 400px; 
+  display: flex;
+   justify-content: center;
+   align-items: center; 
+   flex-direction: column;
+}  
+.learning 
+{
+  margin-top: 70px; 
+  text-decoration: underline;
+  padding: 20px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgs1 
+{
+  background-image: url('./images/soft1.webp'); 
+  
+}  
+.imgs2 
+{
+  background-image: url('./images/soft2.webp'); 
+  
+}   
+.imgs3 
+{
+  background-image: url('./images/soft3.webp'); 
+ 
+} 
+.imgs4 
+{
+  background-image: url('./images/soft5.webp'); 
+  
+} 
+.imgs5 
+{
+  background-image: url('./images/soft4.webp'); 
+  
+} 
+.imgs6 
+{
+  background-image: url('./images/IT-Infrastructure-Management.webp'); 
+ 
+} 
+.joke 
+{
+  width: 80%; 
+  min-height: 400px;
+} 
+.learn 
+{
+  height: 20px;
+  max-width: 80%;
+} 
+.meta 
+{
+  width: 80%;
+} 
+.metaimg 
+{
+  max-height: 400px;
+  max-width: 400px; 
+  
+} 
+.veido 
+{
+  max-width: 80%; 
+  border-radius: 30px;
+}  
+ 
+.veid 
+{
+  border-radius: 30px;
+}

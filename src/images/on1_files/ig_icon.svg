@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Group_48" data-name="Group 48" transform="translate(-0.267 0)">
+    <g id="Ellipse_16" data-name="Ellipse 16" transform="translate(0.267 0)" fill="none" stroke="#656566" stroke-width="1">
+      <circle cx="24" cy="24" r="24" stroke="none"/>
+      <circle cx="24" cy="24" r="23.5" fill="none"/>
+    </g>
+    <g id="insta" transform="translate(13 13)">
+      <g id="Group_47517" data-name="Group 47517" transform="translate(6 6)">
+        <g id="Group_47516" data-name="Group 47516">
+          <path id="Path_28260" data-name="Path 28260" d="M150.8,145.8a5,5,0,1,0,5,5A5.006,5.006,0,0,0,150.8,145.8Z" transform="translate(-145.804 -145.804)" fill="#656566"/>
+        </g>
+      </g>
+      <g id="Group_47519" data-name="Group 47519">
+        <g id="Group_47518" data-name="Group 47518">
+          <path id="Path_28261" data-name="Path 28261" d="M15.969,0H6.031A6.038,6.038,0,0,0,0,6.031v9.938A6.038,6.038,0,0,0,6.031,22h9.938A6.038,6.038,0,0,0,22,15.969V6.031A6.038,6.038,0,0,0,15.969,0ZM11,17.034A6.034,6.034,0,1,1,17.034,11,6.041,6.041,0,0,1,11,17.034Zm6.4-10.6A1.833,1.833,0,1,1,19.228,4.6,1.835,1.835,0,0,1,17.4,6.438Z" fill="#656566"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
